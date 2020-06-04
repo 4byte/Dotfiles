@@ -226,3 +226,4 @@ exec setxkbmap "us,ru" ",winkeys" "grp:alt_caps_toggle"
 #exec_always feh --bg-scale /home/medhigh/Pictures/bg/bg2s.jpg
 exec_always feh --bg-scale `find ~/Pictures/bg/  |sort -R |tail -$N | head -n 1`
 #exec_always xrandr --output DP-1 --mode 1920x1080 --pos 1280x0 --rotate normal --output DVI-I-1 --mode 1280x1024 --pos 0x0 --rotate normal --output DVI-D-1 --primary --mode 1920x1080 --pos 3200x0 --rotate normal --output HDMI-1 --off
+exec dbus-launch nm-applet
